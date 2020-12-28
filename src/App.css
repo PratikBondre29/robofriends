@@ -36,7 +36,7 @@ body {
 }
 .app_footer h4 {
   color: whitesmoke;
-  font-family: monospace, sans-serif;
+  font-family: fantasy, sans-serif;
   font-size: 25px;
 }
 .app_footer span {
@@ -55,5 +55,8 @@ body {
 @media (max-width: 600px) {
   .not_found {
     height: 60vh;
+  }
+  .app_footer h4 {
+    font-size: 20px;
   }
 }
